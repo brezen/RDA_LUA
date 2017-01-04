@@ -21,6 +21,7 @@ MODULE_TYPE=A6390
 # 客户同一项目不同硬件版本或同一项目不同应用
 CUST_HW_TYPE=H
 
+SVN_REVISION=0001
 # 软件版本号
 ifeq "${SVN_REVISION}" ""
 ${error MUST define SVN_REVISION}
